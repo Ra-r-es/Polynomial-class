@@ -26,3 +26,27 @@ Polynom p2(3);
 // Create a polynomial with specified coefficients
 double coef[] = {1, 2, 3, 4};
 Polynom p3(3, coef);
+
+// Set the degree of the polynomial
+p1.set_grad(2);
+
+// Modify the coefficient of a specific degree
+p1.modif_coef(0, 5);
+
+Polynom result;
+
+// Addition of two polynomials
+result = p1 + p2;
+
+// Subtraction of two polynomials
+result = p1 - p2;
+
+// Multiplication of two polynomials
+result = p1 * p2;
+Polynom transformation;
+
+// Apply a transformation to the polynomial -> p1 = P(x) => P(p2).
+p1.ApplyTransformation(p2);
+
+//displays to the polynomial in order of the highest coeficients after making the sum of the polynomials
+p1.display(p2);
