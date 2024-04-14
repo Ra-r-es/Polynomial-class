@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1710484965 source:c:\users\student\desktop\lab\polynom\polynom.cpp
+	"Polynom.h"
+
+1710484965 c:\users\student\desktop\lab\polynom\polynom.h
+
+1710485668 source:c:\users\student\desktop\lab\polynom\main.cpp
+	<iostream>
+	"Polinom.h"
+
+1710487663 c:\users\student\desktop\lab\polynom\polinom.h
+	<iostream>
+
+1710774873 source:c:\users\rares\desktop\proiect poo\polynom\main.cpp
+	<iostream>
+	"Polynom.h"
+
+1710773093 c:\users\rares\desktop\proiect poo\polynom\polynom.h
+	<iostream>
+
